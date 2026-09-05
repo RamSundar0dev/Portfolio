@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ram Sundar — Senior Software Developer & Team Lead</title>
+<meta name="description" content="Ram Sundar builds and ships web, mobile and AI products. Senior software developer and team lead working in React, Next.js, Laravel and Node.js.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="brand"><span class="dot"></span>Ram Sundar</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nl').classList.toggle('open')">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1f1836" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <div class="nav-links" id="nl">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="https://github.com/RamSundar0dev" target="_blank" rel="noopener">GitHub</a>
+      <a href="resume.pdf" target="_blank" rel="noopener" class="btn btn-primary">Download résumé</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-blob"></div>
+  <div class="wrap">
+    <span class="kicker"><span class="pulse"></span> Currently leading a team at Onexfort</span>
+    <h1>I build and ship web, mobile and AI products.</h1>
+    <p class="lede">Senior software developer and team lead with 5+ years turning client requirements into reliable, scalable software — from SaaS platforms and mobile apps to AI-native systems.</p>
+    <div class="cta">
+      <a href="#work" class="btn btn-cat" style="--cat:var(--violet)">View my work</a>
+      <a href="resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Download résumé</a>
+      <a href="https://www.linkedin.com/in/ram-sundar-b623721b6/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      <a href="https://github.com/RamSundar0dev" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+    </div>
+
+    <div class="shipped">
+      <div class="label">Live products I've helped build</div>
+      <div class="shipped-row">
+        <a class="chip" style="--c:var(--violet)" href="https://onexfort.com/" target="_blank" rel="noopener"><span class="swatch"></span>Onexfort<span class="arrow">↗</span></a>
+        <a class="chip" style="--c:var(--blue)" href="https://getrostered.app/" target="_blank" rel="noopener"><span class="swatch"></span>GetRostered<span class="arrow">↗</span></a>
+        <a class="chip" style="--c:var(--rose)" href="https://bookaremovalist.com.au/" target="_blank" rel="noopener"><span class="swatch"></span>BookaRemovalist<span class="arrow">↗</span></a>
+        <a class="chip" style="--c:var(--teal)" href="https://itsbos.com/" target="_blank" rel="noopener"><span class="swatch"></span>BOS<span class="arrow">↗</span></a>
+        <a class="chip" style="--c:var(--emerald)" href="https://planq.com.au/" target="_blank" rel="noopener"><span class="swatch"></span>Planq<span class="arrow">↗</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section" style="padding-top:40px">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><div class="n"><b>5+</b></div><div class="k">Years building & shipping software</div></div>
+      <div class="stat"><div class="n">Team of <b>6</b></div><div class="k">Developers led as team lead</div></div>
+      <div class="stat"><div class="n"><b>8/10</b></div><div class="k">Client pre-sales won as tech lead</div></div>
+      <div class="stat"><div class="n"><b>3</b> apps</div><div class="k">Shipped to App Store & Google Play</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work" style="padding-top:20px">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p>Products across SaaS, marketplaces, fintech and AI. Colours mark the kind of product each one is.</p>
+    </div>
+
+    <div class="work-grid">
+      <!-- Onexfort (feature) -->
+      <a class="card feature cat-violet" href="projects/onexfort.html">
+        <div class="feature-body">
+          <span class="tag">SaaS platform</span>
+          <h3>Onexfort</h3>
+          <p>A field-service SaaS for removalists, cleaners and electricians — CRM, job management, scheduling, quoting and invoicing across web and mobile.</p>
+          <div class="stack"><span>Laravel</span><span>React</span><span>React Native</span><span>MySQL</span><span>AWS</span></div>
+          <div class="more">Read the case study</div>
+        </div>
+        <div class="feature-side">
+          <div class="stack"><span>S3</span><span>QuickSight</span><span>Stripe</span><span>WebSockets</span></div>
+        </div>
+      </a>
+
+      <!-- GetRostered -->
+      <a class="card cat-blue" href="projects/getrostered.html">
+        <span class="tag">Workforce</span>
+        <h3>GetRostered</h3>
+        <p>A workforce and business portal for real-time talent management and scheduling, with Cognito auth and QuickSight reporting.</p>
+        <div class="stack"><span>Laravel</span><span>React</span><span>React Native</span><span>AWS</span></div>
+        <div class="more">Read the case study</div>
+      </a>
+
+      <!-- BookaRemovalist -->
+      <a class="card cat-rose" href="projects/bookaremovalist.html">
+        <span class="tag">Marketplace</span>
+        <h3>BookaRemovalist</h3>
+        <p>An Australian marketplace connecting people with vetted removal companies to get, compare and book quotes in one place.</p>
+        <div class="stack"><span>React.js</span><span>Laravel</span><span>PostgreSQL</span></div>
+        <div class="more">Read the case study</div>
+      </a>
+
+      <!-- BOS (feature) -->
+      <a class="card feature cat-teal" href="projects/bos.html">
+        <div class="feature-body">
+          <span class="tag">AI-native platform</span>
+          <h3>BOS — Business Operating System</h3>
+          <p>An AI-native platform that unifies CRM, ERP, inventory, manufacturing and HR into one operational foundation, replacing a stack of disconnected tools. Requirements gathered first-hand, on-site with the client.</p>
+          <div class="stack"><span>Next.js</span><span>Python</span><span>PostgreSQL</span><span>LLM APIs</span></div>
+          <div class="more">Read the case study</div>
+        </div>
+        <div class="feature-side">
+          <div class="stack"><span>OpenAI</span><span>Anthropic</span></div>
+        </div>
+      </a>
+
+      <!-- Planq -->
+      <a class="card cat-emerald" href="projects/planq.html">
+        <span class="tag">AI-native</span>
+        <h3>Planq</h3>
+        <p>AI-powered retrieval built on a RAG pipeline over a vector database for context-aware responses.</p>
+        <div class="stack"><span>Laravel</span><span>Next.js</span><span>PostgreSQL</span><span>RAG</span></div>
+        <div class="more">Read the case study</div>
+      </a>
+
+      <!-- Credence -->
+      <a class="card cat-amber" href="projects/credence.html">
+        <span class="tag">Fintech</span>
+        <h3>Credence Community Capital</h3>
+        <p>Loan-management software for viewing loan details and paying monthly dues, with a secure backend for reliable transactions.</p>
+        <div class="stack"><span>Angular</span><span>CodeIgniter</span><span>MySQL</span></div>
+        <div class="more">Read the case study</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="about">
+      <div class="section-head" style="margin-bottom:24px">
+        <h2>About</h2>
+      </div>
+      <p>I'm a senior software developer based in Tamil Nadu, India, currently leading a team of up to six developers at Onexfort. I own delivery end to end — from architecture and code review through to deployment — across web and mobile products.</p>
+      <p>A lot of my work happens with clients, not just code. Early in my career I was the person clients spoke to before signing, and I <strong>converted 8 of every 10 pre-sales conversations</strong> into projects. More recently I've gathered requirements on-site for BOS, translating what a business actually needs into a working platform.</p>
+      <p>My core stack is <strong>React, Next.js, Laravel and Node.js</strong>, and I build the modern pieces around them: <strong>LLM-powered features and RAG</strong>, Stripe payments, real-time messaging with WebSockets, and production infrastructure on AWS.</p>
+    </div>
+
+    <div class="panel">
+      <h4>What I work with</h4>
+      <div class="skill-block">
+        <div class="cat-name">Frontend</div>
+        <div class="tags"><span class="hot">React</span><span class="hot">Next.js</span><span>Angular</span><span>JavaScript</span><span>HTML / CSS</span></div>
+      </div>
+      <div class="skill-block">
+        <div class="cat-name">Backend</div>
+        <div class="tags"><span class="hot">Laravel</span><span class="hot">Node.js</span><span>CodeIgniter</span><span>Python</span><span>REST</span><span>GraphQL</span></div>
+      </div>
+      <div class="skill-block">
+        <div class="cat-name">Mobile</div>
+        <div class="tags"><span>React Native</span></div>
+      </div>
+      <div class="skill-block">
+        <div class="cat-name">Data</div>
+        <div class="tags"><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Vector DB</span></div>
+      </div>
+      <div class="skill-block">
+        <div class="cat-name">AI & integrations</div>
+        <div class="tags"><span>OpenAI</span><span>Anthropic</span><span>RAG</span><span>Stripe</span><span>WebSockets</span></div>
+      </div>
+      <div class="skill-block">
+        <div class="cat-name">Cloud & practices</div>
+        <div class="tags"><span>AWS</span><span>CI/CD</span><span>Git</span><span>Agile</span><span>Team leadership</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience" style="padding-top:20px">
+  <div class="wrap">
+    <div class="section-head"><h2>Experience</h2></div>
+    <div class="timeline">
+      <div class="tl-item cat-violet">
+        <div class="tl-role">Senior Software Developer</div>
+        <div class="tl-org">Onexfort — Chennai, Tamil Nadu</div>
+        <div class="tl-when">Apr 2023 – Present</div>
+        <ul>
+          <li>Lead a team of up to 6 developers across products including Onexfort, GetRostered, BOS and Planq.</li>
+          <li>Built LLM-powered features, Stripe payments and real-time WebSocket messaging into production apps.</li>
+          <li>Shipped 3 mobile apps to the App Store and Google Play; run infrastructure on AWS (EC2, ECS, RDS, S3, Cognito, Amplify, QuickSight).</li>
+          <li>Gathered requirements on-site with clients and turned them into technical roadmaps.</li>
+        </ul>
+      </div>
+      <div class="tl-item cat-blue">
+        <div class="tl-role">Full Stack Developer</div>
+        <div class="tl-org">ZeroSoft Technologies — Tuticorin, Tamil Nadu</div>
+        <div class="tl-when">Mar 2021 – Apr 2023</div>
+        <ul>
+          <li>Technical point of contact in client pre-sales — won 8 of 10 prospective projects.</li>
+          <li>Led small project teams of 2–3 developers while building web apps and REST APIs.</li>
+          <li>Drove performance work that improved application load time by up to 40%.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact" id="contact">
+      <h2>Let's build something</h2>
+      <p>Open to senior and lead engineering roles, and to interesting product work. The fastest way to reach me is email.</p>
+      <div class="cta">
+        <a href="mailto:ramji772@gmail.com" class="btn btn-primary">ramji772@gmail.com</a>
+        <a href="https://www.linkedin.com/in/ram-sundar-b623721b6/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+        <a href="https://github.com/RamSundar0dev" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        <a href="resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Download résumé</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>© <span id="yr"></span> Ram Sundar — Thoothukudi, Tamil Nadu</div>
+    <div><a href="mailto:ramji772@gmail.com">ramji772@gmail.com</a> · <a href="https://github.com/RamSundar0dev" target="_blank" rel="noopener">GitHub</a> · <a href="tel:+919677598653">+91 96775 98653</a></div>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
